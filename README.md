@@ -70,6 +70,18 @@ homiemart/
 
 ---
 
+## 📸 Screenshots
+
+![image](https://github.com/user-attachments/assets/78c7ff77-5472-4e48-99a9-e31ec0530252)
+![image](https://github.com/user-attachments/assets/602b8a80-e1f3-4ca5-9fe6-528fcadd4ea2)
+![image](https://github.com/user-attachments/assets/ad1dd75e-c7d6-4583-b9ee-a771585c15fb)
+![image](https://github.com/user-attachments/assets/0b7ce28c-0e4c-43da-868c-203a83e0bac2)
+![image](https://github.com/user-attachments/assets/30707b10-003e-4695-a6c9-9e9ad6450767)
+![image](https://github.com/user-attachments/assets/0a6df465-65b9-47f3-a2c3-3045b34013b1)
+![image](https://github.com/user-attachments/assets/f26399ac-ddd7-45f2-819b-05b906e7f998)
+![image](https://github.com/user-attachments/assets/705f9efb-2666-4056-86e1-556ada394b59)
+
+
 ## 🤝 Author
 
 - **Mohana Dharshan**
