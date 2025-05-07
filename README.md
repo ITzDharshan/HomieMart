@@ -60,7 +60,6 @@ HomieMart aims to empower homemakers by transforming their passions—whether it
 ## 📁 Project Structure
 
 homiemart/
-│
 - index.html / index.php # Landing page
 - login.php / register.php # User authentication
 - seller-dashboard.php # Seller panel
