@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    background-color: #e8eaf6;
+  }
+  
+  .left {
+    flex: 1;
+    position: relative; /* Enable positioning for the overlay text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .left h1 {
+    position: absolute;
+    width: 550px;
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .left h1 span {
+    display: block;
+    font-size: 25px;
+    margin-top: 10px;
+    color: #62b7df;
+  }
+
+  .text-overlay h1 {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 0;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .right h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4a69bd;
+    font-weight: lighter;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="email"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="password"] {
+    margin-bottom: 0;
+  }
+
+  .forgot{
+    text-align: end;
+    font-size: 12px;
+  }
+  
+  .signin-btn {
+    background-color: #6a89cc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .signin-btn:hover {
+    background-color: #4a69bd;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  p a {
+    color: #6a89cc;
+    text-decoration: none;
+  }
+  
+/* Responsive Styles */
+
+/* Extra Small Devices (up to 480px) */
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    height: 150vh;
+  }
+
+  .left {
+    height: 50vh;
+  }
+
+  .left h1 {
+    font-size: 15px;
+    width: 80%;
+    padding: 10px;
+  }
+
+  .left h1 span {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .right h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .text-overlay h1 {
+    font-size: 25px;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    font-size: 14px;
+    width: 80%;
+  }
+
+  .signin-btn {
+    font-size: 14px;
+    padding: 8px;
+    width: 85%;
+  }
+}
+
+/* Small Devices (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .left h1 {
+    font-size: 20px;
+    width: 80%;
+    padding: 15px;
+  }
+
+  .left h1 span {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .text-overlay h1 {
+    font-size: 30px;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    font-size: 14px;
+    width: 80%;
+  }
+
+  .signin-btn {
+    font-size: 15px;
+    padding: 10px;
+    width: 85%;
+  }
+}
+
+/* Medium Devices (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .left h1 {
+    font-size: 24px;
+    width: 70%;
+    padding: 20px;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    font-size: 16px;
+  }
+
+  .signin-btn {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
+/* Large Devices (1025px to 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .left h1 {
+    font-size: 25px;
+    width: 60%;
+    padding: 20px;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    font-size: 17px;
+  }
+
+  .signin-btn {
+    font-size: 17px;
+    padding: 14px;
+  }
+}
+
+/* Extra Large Devices (1281px and above) */
+@media (min-width: 1281px) {
+  .left h1 {
+    font-size: 25px;
+    width: 80%;
+    padding: 20px;
+  }
+
+  .left h1 span {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  .right h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .text-overlay h1 {
+    font-size: 30px;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    font-size: 14px;
+    width: 95%;
+  }
+
+  .signin-btn {
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+  }
+
+}

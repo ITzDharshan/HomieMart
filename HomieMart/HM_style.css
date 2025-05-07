@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-right: 15%;
+    width: 100%;
+}
+
+
+.log-form {
+    background: rgba(90, 89, 89, 0.8); /* White background with some transparency */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Set a fixed width for the form */
+    text-align: center; /* Center text inside the form */
+}
+
+.log-form h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.text-overlay h1 {
+    font-size: 25px;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.category-group label {
+    color: #ffffff;
+}
+
+.log-form input, .select-box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.password-container input {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* Adjust padding to make space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.password-container i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+}
+
+
+.log-form .forgot {
+    margin: 10px 0;
+    text-align: end;
+    font-size: 12px;
+}
+
+.log-form .forgot a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.log-form .forgot a:hover {
+    text-decoration: underline;
+}
+
+.log-form .signin-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.log-form .signin-btn:hover {
+    background-color: #0056b3;
+}
+
+.log-form p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+  
+.log-form p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .log-form p a:hover {
+    text-decoration: underline;
+  }
