@@ -73,7 +73,7 @@ homiemart/
 ## 🤝 Author
 
 - **Mohana Dharshan**
-- GitHub: [github.com/ITzDharshan]([https://github.com/yourusername](https://github.com/ITzDharshan))
+- GitHub: [github.com/ITzDharshan](https://github.com/ITzDharshan)
 - LinkedIn: [linkedin.com/in/MohanaDharshan](www.linkedin.com/in/mdharshan)
 
 ---
